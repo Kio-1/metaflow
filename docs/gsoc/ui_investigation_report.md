@@ -36,8 +36,8 @@ While the Python Client API can discover tags like `user:bilal` and `runtime:dev
 * **Conclusion**: The UI currently relies on the Metadata Service to "flatten" these tags into a database for easy retrieval.
 
 
-## 💡 Proposed Direction for UI 2.0
-To achieve a "zero-infrastructure" local UI, the project must prioritize:
+##  Proposed Direction for UI 2.0
+To achieve a zero-infrastructure local UI, the project must prioritize:
 
 1.  **Direct File Parsing**: Build a backend capability to parse the `.metaflow` directory structure directly.
 2.  **Robust Pathing**: Fix the `NoneType` pathing errors in the DAG rendering logic to support local OS/WSL paths.
